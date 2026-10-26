@@ -110,3 +110,4 @@ All test cases outlined in `SPEC-001` Section 9 are supported:
 - **TC-05:** Prompt injection attempts are caught by the sanitization gateway.
 - **TC-06:** Correct accusation with critical clue yields score > 85% and 'Master Sleuth' rank.
 - **TC-07:** Wrong suspect yields score < 40% with analytical feedback and truth reveal.
+

@@ -66,3 +66,4 @@ export async function processAccusation({ caseId, sessionId, accusedCulpritId, m
 
   return resultPayload;
 }
+

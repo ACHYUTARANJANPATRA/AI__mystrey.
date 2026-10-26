@@ -87,3 +87,4 @@ export const useCaseStore = create((set, get) => ({
   setVerdictResult: (result) => set({ verdictResult: result, isVerdictOpen: true }),
   closeVerdict: () => set({ isVerdictOpen: false })
 }));
+

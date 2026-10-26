@@ -843,3 +843,4 @@ function generateAestheticNoirSVG(caption, type) {
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">${innerArt}</svg>`;
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
+

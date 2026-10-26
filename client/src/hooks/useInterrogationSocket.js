@@ -105,3 +105,4 @@ export function useInterrogationSocket(caseId, sessionId) {
     sendMessage
   };
 }
+

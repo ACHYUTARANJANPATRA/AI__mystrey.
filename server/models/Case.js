@@ -33,3 +33,4 @@ const CaseSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 export default mongoose.models.Case || mongoose.model('Case', CaseSchema);
+

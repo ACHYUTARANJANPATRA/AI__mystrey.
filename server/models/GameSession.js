@@ -37,3 +37,4 @@ const GameSessionSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 export default mongoose.models.GameSession || mongoose.model('GameSession', GameSessionSchema);
+

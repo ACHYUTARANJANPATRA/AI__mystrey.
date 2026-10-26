@@ -50,3 +50,4 @@ export function useCasePolling() {
 
   return { startPolling };
 }
+

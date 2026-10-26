@@ -20,3 +20,4 @@ const SuspectSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 export default mongoose.models.Suspect || mongoose.model('Suspect', SuspectSchema);
+

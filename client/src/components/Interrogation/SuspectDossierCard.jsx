@@ -113,3 +113,4 @@ export default function SuspectDossierCard({ suspect, currentStress = 20, isCrac
     </div>
   );
 }
+
