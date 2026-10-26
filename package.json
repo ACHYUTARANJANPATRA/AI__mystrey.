@@ -1,0 +1,19 @@
+{
+  "name": "ai-mystery-room",
+  "version": "1.0.0",
+  "description": "AI Mystery Room (The Detective's Terminal) - Interactive AI-powered murder mystery deduction game",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["ai", "gemini", "mystery", "game", "detective", "socketio", "react"],
+  "author": "Antigravity",
+  "license": "MIT"
+}

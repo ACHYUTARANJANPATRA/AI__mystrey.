@@ -1,0 +1,368 @@
+{
+  "cases": [
+    {
+      "_id": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "title": "The Faraday Protocol",
+      "tagline": "Air-gapped and breathless.",
+      "scenarioSeed": "A prominent cyber-security CEO found dead in a hermetically sealed Faraday room with a flash drive in his throat.",
+      "difficulty": "Detective",
+      "status": "ready",
+      "progressPercentage": 100,
+      "createdAt": "2026-10-26T14:38:49.148Z",
+      "updatedAt": "2026-10-26T14:38:49.154Z",
+      "groundTruth": {
+        "crimeSummary": "David Kross, CEO of Aegis Cyber-Defense, was found dead inside the hermetically sealed, air-gapped Vault 4 conference room at 22:30. Cause of death was acute potassium chloride intoxication administered through a modified USB bypass probe.",
+        "actualTimeline": [
+          {
+            "time": "20:00",
+            "event": "David Kross enters Vault 4 for classified audit.",
+            "involvedSuspects": [
+              "David Kross"
+            ]
+          },
+          {
+            "time": "21:30",
+            "event": "Evelyn Vance reports cooling anomalies in server annex.",
+            "involvedSuspects": [
+              "Evelyn Vance"
+            ]
+          },
+          {
+            "time": "21:45",
+            "event": "Julian Cole hands Master FOB to Dr. Thorne in corridor.",
+            "involvedSuspects": [
+              "Julian Cole",
+              "Dr. Aris Thorne"
+            ]
+          },
+          {
+            "time": "21:55",
+            "event": "Dr. Thorne enters Vault 4 and injects the toxin under guise of USB diagnostic.",
+            "involvedSuspects": [
+              "Dr. Aris Thorne",
+              "David Kross"
+            ]
+          },
+          {
+            "time": "22:15",
+            "event": "Marcus Brody sends warning not to access server rack.",
+            "involvedSuspects": [
+              "Marcus Brody"
+            ]
+          }
+        ],
+        "murderWeaponOrMethod": "Modified USB hardware debugging probe delivering rapid neurotoxin via contact.",
+        "criticalClueDescription": "Deleted WhatsApp message at 21:47 indicating master keycard handover, corroborated by CCTV reflection showing Dr. Thorne's distinctive silver cufflink.",
+        "solutionExplanation": "Dr. Aris Thorne claimed he was compiling cryptographic test vectors in Lab B between 20:00 and 23:00. However, the corrupted CCTV frame timestamp reflects Thorne's signature silver cufflink at Vault 4 at 21:55, and Julian's deleted WhatsApp message mentions Thorne taking the master keycard just minutes prior."
+      },
+      "groundTruth.culpritId": "4ec51ab0-12cd-4d82-8672-b9f2ccd377b4"
+    }
+  ],
+  "suspects": [
+    {
+      "_id": "4ec51ab0-12cd-4d82-8672-b9f2ccd377b4",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "tempId": "suspect-1",
+      "name": "Dr. Aris Thorne",
+      "role": "Chief Cryptographer & Hardware Architect",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%230b0f19%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22160%22%20r%3D%2265%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%20200%20360%20C%20200%20260%20400%20260%20400%20360%20Z%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Noir%20lighting%20bar%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22140%22%20width%3D%22600%22%20height%3D%2230%22%20fill%3D%22%23f59e0b%22%20fill-opacity%3D%220.12%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20HUD%20stamp%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2230%22%20y%3D%2230%22%20width%3D%22110%22%20height%3D%2224%22%20fill%3D%22%23ef4444%22%20fill-opacity%3D%220.2%22%20stroke%3D%22%23ef4444%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2285%22%20y%3D%2246%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ef4444%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20font-weight%3D%22bold%22%3ECONFIDENTIAL%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22380%22%20text-anchor%3D%22middle%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22monospace%22%20font-size%3D%2213%22%3EMugshot%20portrait%20of%20Dr%20Aris%20Thorne%20Chief%20Cryptog%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "personality": "Arrogant, cold, calculating, prone to passive-aggressive intellectual condescension.",
+      "statedAlibi": "I was isolated in Cryptography Lab B compiling test vectors on an air-gapped rig between 20:00 and 23:00. Check the build scripts.",
+      "motive": "David Kross discovered Thorne was selling zero-day firmware bypasses to foreign venture syndicates.",
+      "isCulprit": true,
+      "secrets": [
+        "Transferred $1.4M to an offshore Caymans shell corporation two days ago.",
+        "Possesses custom soldering tools in his lab desk."
+      ],
+      "knowledgeBase": {
+        "whatTheyKnow": [
+          "Vault 4's physical lock mechanism can be overridden with the Master FOB.",
+          "David was planning to dismiss the entire hardware security team on Monday."
+        ],
+        "whatTheyLieAbout": [
+          "Denies ever leaving Lab B between 20:00 and 23:00.",
+          "Denies possessing or handling the Master FOB that evening."
+        ],
+        "breakingPointThreshold": 3
+      },
+      "currentStressLevel": 20,
+      "createdAt": "2026-10-26T14:38:49.150Z",
+      "updatedAt": "2026-10-26T14:38:49.152Z"
+    },
+    {
+      "_id": "51cf762e-2eff-494a-8e4a-a74a29665270",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "tempId": "suspect-2",
+      "name": "Evelyn Vance",
+      "role": "Senior Systems Admin & Infrastructure Lead",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%230b0f19%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22160%22%20r%3D%2265%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%20200%20360%20C%20200%20260%20400%20260%20400%20360%20Z%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Noir%20lighting%20bar%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22140%22%20width%3D%22600%22%20height%3D%2230%22%20fill%3D%22%23f59e0b%22%20fill-opacity%3D%220.12%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20HUD%20stamp%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2230%22%20y%3D%2230%22%20width%3D%22110%22%20height%3D%2224%22%20fill%3D%22%23ef4444%22%20fill-opacity%3D%220.2%22%20stroke%3D%22%23ef4444%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2285%22%20y%3D%2246%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ef4444%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20font-weight%3D%22bold%22%3ECONFIDENTIAL%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22380%22%20text-anchor%3D%22middle%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22monospace%22%20font-size%3D%2213%22%3EMugshot%20portrait%20of%20Evelyn%20Vance%20Senior%20Systems%20%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "personality": "Nervous, workaholic, hyper-vigilant, chain-drinks espresso.",
+      "statedAlibi": "I was troubleshooting the cooling racks in Server Annex 2 all evening from 21:00 onwards.",
+      "motive": "David was threatening to fire her after a data leak exposed customer credentials last month.",
+      "isCulprit": false,
+      "secrets": [
+        "Was illegally mining cryptocurrency on the secondary server farm during graveyard shift."
+      ],
+      "knowledgeBase": {
+        "whatTheyKnow": [
+          "Noticed the cooling temperature spiked in Vault 4 at 21:50.",
+          "Saw someone in a dark jacket heading toward Vault 4 corridor at 21:52."
+        ],
+        "whatTheyLieAbout": [
+          "Tries to hide why the cooling rack failed because it exposes her crypto mining rig."
+        ],
+        "breakingPointThreshold": 3
+      },
+      "currentStressLevel": 20,
+      "createdAt": "2026-10-26T14:38:49.150Z",
+      "updatedAt": "2026-10-26T14:38:49.152Z"
+    },
+    {
+      "_id": "fe9bca1b-11c7-44d3-84e6-f2952387cfe8",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "tempId": "suspect-3",
+      "name": "Julian Cole",
+      "role": "Lead Firmware Security Analyst",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%230b0f19%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22160%22%20r%3D%2265%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%20200%20360%20C%20200%20260%20400%20260%20400%20360%20Z%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Noir%20lighting%20bar%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22140%22%20width%3D%22600%22%20height%3D%2230%22%20fill%3D%22%23f59e0b%22%20fill-opacity%3D%220.12%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20HUD%20stamp%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2230%22%20y%3D%2230%22%20width%3D%22110%22%20height%3D%2224%22%20fill%3D%22%23ef4444%22%20fill-opacity%3D%220.2%22%20stroke%3D%22%23ef4444%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2285%22%20y%3D%2246%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ef4444%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20font-weight%3D%22bold%22%3ECONFIDENTIAL%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22380%22%20text-anchor%3D%22middle%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22monospace%22%20font-size%3D%2213%22%3EMugshot%20portrait%20of%20Julian%20Cole%20Lead%20Firmware%20Se%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "personality": "Defensive, quick to shift blame, anxious when confronted with logs.",
+      "statedAlibi": "I clocked out at 21:15 and went to the diner across the street. I have the receipt.",
+      "motive": "David passed him over for CTO promotion twice in favor of outside consultants.",
+      "isCulprit": false,
+      "secrets": [
+        "Borrowed the Master FOB from Marcus without authorization at 21:00.",
+        "Deleted a panicked WhatsApp message when police arrived."
+      ],
+      "knowledgeBase": {
+        "whatTheyKnow": [
+          "He handed the Master FOB to Dr. Thorne at 21:45 because Thorne claimed David urgently requested it.",
+          "The diner receipt was from a takeout order his girlfriend picked up."
+        ],
+        "whatTheyLieAbout": [
+          "Lies about when he actually left the campus to avoid admitting he gave Thorne the keycard."
+        ],
+        "breakingPointThreshold": 3
+      },
+      "currentStressLevel": 20,
+      "createdAt": "2026-10-26T14:38:49.150Z",
+      "updatedAt": "2026-10-26T14:38:49.153Z"
+    },
+    {
+      "_id": "88245879-0ba9-425d-98c7-ef54684ec919",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "tempId": "suspect-4",
+      "name": "Marcus Brody",
+      "role": "Chief of Physical Security",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%230b0f19%22%20%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22160%22%20r%3D%2265%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%20200%20360%20C%20200%20260%20400%20260%20400%20360%20Z%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23475569%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Noir%20lighting%20bar%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%220%22%20y%3D%22140%22%20width%3D%22600%22%20height%3D%2230%22%20fill%3D%22%23f59e0b%22%20fill-opacity%3D%220.12%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20HUD%20stamp%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2230%22%20y%3D%2230%22%20width%3D%22110%22%20height%3D%2224%22%20fill%3D%22%23ef4444%22%20fill-opacity%3D%220.2%22%20stroke%3D%22%23ef4444%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2285%22%20y%3D%2246%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ef4444%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%20font-weight%3D%22bold%22%3ECONFIDENTIAL%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22300%22%20y%3D%22380%22%20text-anchor%3D%22middle%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22monospace%22%20font-size%3D%2213%22%3EMugshot%20portrait%20of%20Marcus%20Brody%20Chief%20of%20Physic%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "personality": "Gruff ex-military, rigid, procedural, fiercely defensive of his security protocols.",
+      "statedAlibi": "On perimeter watch in the central monitoring control hub all night.",
+      "motive": "David was privatizing security and terminating Brody's pension plan.",
+      "isCulprit": false,
+      "secrets": [
+        "Fell asleep for 20 minutes between 21:40 and 22:00 during his patrol cycle."
+      ],
+      "knowledgeBase": {
+        "whatTheyKnow": [
+          "Camera 04 in the North Corridor has a known 2-minute blind spot near Vault 4.",
+          "Dr. Thorne's silver cufflink was spotted on the secondary corridor mirror."
+        ],
+        "whatTheyLieAbout": [
+          "Claims he monitored CCTV without blinking to cover up his nap."
+        ],
+        "breakingPointThreshold": 3
+      },
+      "currentStressLevel": 20,
+      "createdAt": "2026-10-26T14:38:49.150Z",
+      "updatedAt": "2026-10-26T14:38:49.153Z"
+    }
+  ],
+  "evidence": [
+    {
+      "_id": "67297ea8-d254-4ed8-9a44-78c61e3b724b",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "title": "Alpha Dev Team - Leaked WhatsApp Export",
+      "type": "whatsapp",
+      "description": "Encrypted internal WhatsApp group chat export recovered from Julian Cole's smartphone.",
+      "category": "Digital Log",
+      "isRedHerring": false,
+      "significance": "Critical",
+      "payload": {
+        "chatGroupTitle": "Vault 4 Core Ops [Classified]",
+        "participants": [
+          "Evelyn Vance",
+          "Julian Cole",
+          "Marcus Brody",
+          "Dr. Aris Thorne"
+        ],
+        "messages": [
+          {
+            "sender": "Evelyn Vance",
+            "timestamp": "21:38",
+            "content": "Rack 3 cooling fan is tripping again. Who is running heavy compute?",
+            "isDeleted": false
+          },
+          {
+            "sender": "Julian Cole",
+            "timestamp": "21:42",
+            "content": "I am logging off. Got a migraine. Going across to the diner.",
+            "isDeleted": false
+          },
+          {
+            "sender": "Dr. Aris Thorne",
+            "timestamp": "21:44",
+            "content": "Julian, bring the Master FOB to the corridor before you vanish.",
+            "isDeleted": false
+          },
+          {
+            "sender": "Julian Cole",
+            "timestamp": "21:46",
+            "content": "Gave it to you by the water cooler. Don't lose it.",
+            "isDeleted": false
+          },
+          {
+            "sender": "Julian Cole",
+            "timestamp": "21:47",
+            "content": "This message was deleted by sender",
+            "isDeleted": true
+          },
+          {
+            "sender": "Marcus Brody",
+            "timestamp": "22:05",
+            "content": "All badges need to be back in the dock by 22:30. No exceptions.",
+            "isDeleted": false
+          },
+          {
+            "sender": "Dr. Aris Thorne",
+            "timestamp": "22:20",
+            "content": "Understood Marcus. Returning to my lab now.",
+            "isDeleted": false
+          }
+        ]
+      },
+      "isUnlocked": true,
+      "createdAt": "2026-10-26T14:38:49.151Z",
+      "updatedAt": "2026-10-26T14:38:49.151Z"
+    },
+    {
+      "_id": "ada326c9-afaa-41ce-a3f9-64c1f4423a2c",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "title": "North Corridor Surveillance - CAM 04 Log & Frame",
+      "type": "cctv",
+      "description": "Motion-activated surveillance camera feed covering the approach to Vault 4.",
+      "category": "Surveillance",
+      "isRedHerring": false,
+      "significance": "Critical",
+      "payload": {
+        "cameraLocation": "Vault 4 Approach - North Corridor Cam 04",
+        "timeWindow": "21:45 - 22:15",
+        "videoTranscript": "[21:51:02] Motion detected. A figure wearing an Aegis charcoal lab turtleneck steps into frame. Subject approaches Vault 4 keycard panel. At [21:55:18], the subject reaches for the handle; the convex security mirror reflects a distinctive silver hexagonal cufflink matching Dr. Thorne's cryptographic award emblem.",
+        "frames": [
+          {
+            "timestamp": "21:55:18",
+            "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%23090d16%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%2250%22%20x2%3D%22600%22%20y2%3D%2250%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%22150%22%20x2%3D%22600%22%20y2%3D%22150%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%22250%22%20x2%3D%22600%22%20y2%3D%22250%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%22350%22%20x2%3D%22600%22%20y2%3D%22350%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Perspective%20Hallway%20Corridor%20--%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%22120%2C40%20480%2C40%20400%2C140%20200%2C140%22%20fill%3D%22%23111827%22%20stroke%3D%22%231f2937%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%22200%2C140%20400%2C140%20360%2C260%20240%2C260%22%20fill%3D%22%23161e2e%22%20stroke%3D%22%23374151%22%20%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22160%22%20width%3D%2260%22%20height%3D%2295%22%20fill%3D%22%230f172a%22%20stroke%3D%22%2306b6d4%22%20stroke-width%3D%221.5%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Shadow%20Silhouette%20of%20Suspect%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22185%22%20r%3D%2214%22%20fill%3D%22%23030712%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%20285%20202%20Q%20300%20198%20315%20202%20L%20322%20255%20L%20278%20255%20Z%22%20fill%3D%22%23030712%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Cufflink%20Glint%20Point%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22288%22%20cy%3D%22230%22%20r%3D%223.5%22%20fill%3D%22%2338bdf8%22%20filter%3D%22drop-shadow(0%200%204px%20%2306b6d4)%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20CCTV%20HUD%20Overlay%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%2212%22%20height%3D%2212%22%20fill%3D%22%23ef4444%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2240%22%20y%3D%2231%22%20fill%3D%22%23ef4444%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%3EREC%20%E2%97%8F%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22580%22%20y%3D%2231%22%20text-anchor%3D%22end%22%20fill%3D%22%2306b6d4%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%3E%5BCAM%2004%20-%20NORTH%20VAULT%5D%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2225%22%20y%3D%22380%22%20fill%3D%22%23f59e0b%22%20font-family%3D%22monospace%22%20font-size%3D%2213%22%3E2026-10-26%2021%3A55%3A18%20UTC%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22575%22%20y%3D%22380%22%20text-anchor%3D%22end%22%20fill%3D%22%239ca3af%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%3EMOTION%20LOCK%3A%2094.2%25%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+            "description": "Frame #841: Subject inserting keycard into Vault 4 terminal. Silver cufflink visible in reflection."
+          },
+          {
+            "timestamp": "22:08:44",
+            "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%23090d16%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%2250%22%20x2%3D%22600%22%20y2%3D%2250%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%22150%22%20x2%3D%22600%22%20y2%3D%22150%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%22250%22%20x2%3D%22600%22%20y2%3D%22250%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3Cline%20x1%3D%220%22%20y1%3D%22350%22%20x2%3D%22600%22%20y2%3D%22350%22%20stroke%3D%22%2306b6d4%22%20stroke-opacity%3D%220.15%22%20stroke-dasharray%3D%224%2C4%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Perspective%20Hallway%20Corridor%20--%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%22120%2C40%20480%2C40%20400%2C140%20200%2C140%22%20fill%3D%22%23111827%22%20stroke%3D%22%231f2937%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%22200%2C140%20400%2C140%20360%2C260%20240%2C260%22%20fill%3D%22%23161e2e%22%20stroke%3D%22%23374151%22%20%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22270%22%20y%3D%22160%22%20width%3D%2260%22%20height%3D%2295%22%20fill%3D%22%230f172a%22%20stroke%3D%22%2306b6d4%22%20stroke-width%3D%221.5%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Shadow%20Silhouette%20of%20Suspect%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22300%22%20cy%3D%22185%22%20r%3D%2214%22%20fill%3D%22%23030712%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%20285%20202%20Q%20300%20198%20315%20202%20L%20322%20255%20L%20278%20255%20Z%22%20fill%3D%22%23030712%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Cufflink%20Glint%20Point%20--%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22288%22%20cy%3D%22230%22%20r%3D%223.5%22%20fill%3D%22%2338bdf8%22%20filter%3D%22drop-shadow(0%200%204px%20%2306b6d4)%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20CCTV%20HUD%20Overlay%20--%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%2212%22%20height%3D%2212%22%20fill%3D%22%23ef4444%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2240%22%20y%3D%2231%22%20fill%3D%22%23ef4444%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%3EREC%20%E2%97%8F%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22580%22%20y%3D%2231%22%20text-anchor%3D%22end%22%20fill%3D%22%2306b6d4%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%3E%5BCAM%2004%20-%20NORTH%20VAULT%5D%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2225%22%20y%3D%22380%22%20fill%3D%22%23f59e0b%22%20font-family%3D%22monospace%22%20font-size%3D%2213%22%3E2026-10-26%2021%3A55%3A18%20UTC%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22575%22%20y%3D%22380%22%20text-anchor%3D%22end%22%20fill%3D%22%239ca3af%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%3EMOTION%20LOCK%3A%2094.2%25%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+            "description": "Frame #912: Same figure swiftly exiting corridor toward Lab Annex B."
+          }
+        ]
+      },
+      "isUnlocked": true,
+      "createdAt": "2026-10-26T14:38:49.151Z",
+      "updatedAt": "2026-10-26T14:38:49.151Z"
+    },
+    {
+      "_id": "160b7b89-b464-424e-8ae7-67e9c1ec8211",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "title": "Coroner Preliminary Forensic Autopsy",
+      "type": "document",
+      "description": "Official preliminary post-mortem toxicology and pathology assessment of David Kross.",
+      "category": "Forensics",
+      "isRedHerring": false,
+      "significance": "Supporting",
+      "payload": {
+        "documentType": "Autopsy Report",
+        "bodyContent": "Subject: David Kross (Age: 51). Time of death estimated at 22:00 (+/- 15 mins). No blunt force trauma or asphyxiation marks. Microscopic puncture wound discovered at the base of the left index finger, consistent with an electrified USB pin probe. Rapid ventricular fibrillation induced via concentrated chemical agent.",
+        "metadataTable": {
+          "Case File": "CR-2026-9041-A",
+          "Pathologist": "Dr. Miriam O'Connor, ME",
+          "Estimated TOD": "21:55 - 22:10",
+          "Tox Screen": "Positive: Concentrated KCl & Synthetic Neuro-blocker",
+          "Classification": "Homicide"
+        }
+      },
+      "isUnlocked": true,
+      "createdAt": "2026-10-26T14:38:49.151Z",
+      "updatedAt": "2026-10-26T14:38:49.151Z"
+    },
+    {
+      "_id": "65e7599b-f4e0-4687-aa17-a502f3d27516",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "title": "Faraday Vault 4 Badge Access Register",
+      "type": "document",
+      "description": "Air-gapped magnetic latch access timestamps exported directly from Vault 4 door controller.",
+      "category": "Digital Log",
+      "isRedHerring": false,
+      "significance": "Critical",
+      "payload": {
+        "documentType": "Keycard Access Audit",
+        "bodyContent": "Controller offline memory buffer dump. Physical badges read at outer portal:",
+        "metadataTable": {
+          "20:00:14": "Badge #001 (David Kross - OWNER)",
+          "21:54:50": "Badge #MASTER-09 (Julian Cole - Transferred)",
+          "22:09:12": "Door Sensor: Emergency Seal Engaged",
+          "22:31:04": "Badge #SEC-02 (Marcus Brody - First Responder)"
+        }
+      },
+      "isUnlocked": true,
+      "createdAt": "2026-10-26T14:38:49.151Z",
+      "updatedAt": "2026-10-26T14:38:49.151Z"
+    },
+    {
+      "_id": "3076129e-45c9-4d8b-9a13-736137c47694",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "title": "Crime Scene Overview - Vault 4 Conference Table",
+      "type": "image",
+      "description": "Crime scene photography showing David Kross slumped over the encrypted terminal with open laptop.",
+      "category": "Forensics",
+      "isRedHerring": false,
+      "significance": "Supporting",
+      "payload": {
+        "imageUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20400%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22%230a0e17%22%20%2F%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3CradialGradient%20id%3D%22lampGlow%22%20cx%3D%2250%25%22%20cy%3D%2240%25%22%20r%3D%2250%25%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f59e0b%22%20stop-opacity%3D%220.35%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230a0e17%22%20stop-opacity%3D%220%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22600%22%20height%3D%22400%22%20fill%3D%22url(%23lampGlow)%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Conference%20table%20%26%20terminal%20--%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%2280%2C260%20520%2C260%20560%2C370%2040%2C370%22%20fill%3D%22%231e293b%22%20stroke%3D%22%23334155%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22220%22%20y%3D%22190%22%20width%3D%22160%22%20height%3D%22100%22%20rx%3D%224%22%20fill%3D%22%230f172a%22%20stroke%3D%22%2306b6d4%22%20stroke-width%3D%222%22%20%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%22235%22%20y%3D%22200%22%20width%3D%22130%22%20height%3D%2270%22%20fill%3D%22%23020617%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22250%22%20y%3D%22235%22%20fill%3D%22%23ef4444%22%20font-family%3D%22monospace%22%20font-size%3D%2210%22%3ESECURITY%20LOCKOUT%3C%2Ftext%3E%0A%20%20%20%20%20%20%3C!--%20Slumped%20silhouette%20--%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M%20330%20250%20Q%20380%20230%20420%20280%20L%20460%20360%20L%20320%20360%20Z%22%20fill%3D%22%23030712%22%20%2F%3E%0A%20%20%20%20%20%20%3C!--%20Evidence%20marker%20flag%20--%3E%0A%20%20%20%20%20%20%3Cpolygon%20points%3D%22170%2C250%20190%2C250%20190%2C270%20170%2C270%22%20fill%3D%22%23f59e0b%22%20%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%22180%22%20y%3D%22265%22%20text-anchor%3D%22middle%22%20fill%3D%22%23000%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%3E%231%3C%2Ftext%3E%0A%20%20%20%20%20%20%3C!--%20HUD%20Title%20--%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2225%22%20y%3D%2230%22%20fill%3D%22%23f59e0b%22%20font-family%3D%22monospace%22%20font-size%3D%2213%22%3ECRIME%20SCENE%20FORENSIC%20EVIDENCE%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2225%22%20y%3D%2250%22%20fill%3D%22%2364748b%22%20font-family%3D%22monospace%22%20font-size%3D%2211%22%3EAIR-GAPPED%20VAULT%204%20%2F%2F%20CASE%20%232026-9041%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2225%22%20y%3D%22385%22%20fill%3D%22%2394a3b8%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%3ECrime%20scene%20overview%20inside%20Vault%204%20with%20victim%20%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "forensicNotes": "Victim was seated before an air-gapped terminal. A custom black USB debugging cable remains plugged into port 2. Coffee mug untouched."
+      },
+      "isUnlocked": true,
+      "createdAt": "2026-10-26T14:38:49.151Z",
+      "updatedAt": "2026-10-26T14:38:49.151Z"
+    }
+  ],
+  "gameSessions": [
+    {
+      "_id": "6cba14df-2815-4a58-9769-7b7aceb18ea5",
+      "caseId": "c7a3114d-4706-4bfc-a5df-25eb9472d235",
+      "playerId": "detective-1",
+      "notes": "",
+      "pinnedEvidenceIds": [],
+      "interrogationHistory": [],
+      "startedAt": "2026-10-26T14:38:49.156Z",
+      "submittedAccusation": {
+        "culpritId": "4ec51ab0-12cd-4d82-8672-b9f2ccd377b4",
+        "accusedMotive": "Preventing victim from reporting zero-day backdoor sales",
+        "murderMethod": "Lethal toxin via USB debugging probe",
+        "keyEvidenceId": "67297ea8-d254-4ed8-9a44-78c61e3b724b",
+        "deductionStatement": "The deleted WhatsApp message proves master FOB was handed to Thorne at 21:45, and CCTV reflection reveals silver cufflink at Vault 4 at 21:55, shattering his Lab B alibi.",
+        "submittedAt": "2026-10-26T14:38:49.159Z"
+      },
+      "verdictResult": {
+        "isCulpritCorrect": true,
+        "logicScore": 98,
+        "detectiveRank": "Master Sleuth",
+        "feedbackSummary": "Exceptional investigative work! You correctly identified Dr. Aris Thorne and dismantled their fabricated alibi.",
+        "groundTruthBreakdown": "Dr. Aris Thorne claimed he was compiling cryptographic test vectors in Lab B between 20:00 and 23:00. However, the corrupted CCTV frame timestamp reflects Thorne's signature silver cufflink at Vault 4 at 21:55, and Julian's deleted WhatsApp message mentions Thorne taking the master keycard just minutes prior."
+      },
+      "completedAt": "2026-10-26T14:38:49.159Z",
+      "updatedAt": "2026-10-26T14:38:49.159Z"
+    }
+  ]
+}
